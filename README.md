@@ -14,4 +14,19 @@ Re utilizable en otros proyectos y lugares
 
 ### Vamos a aprender a Crear nuestros propios Hooks
 
-Hello friend!
+#### Creamos una carpeta en src llamada hooks y dentro de ella un archivo que inicie con -use- y el nombre que elijamos poner
+
+```bash
+    const useSelectMonedas = () => {
+
+    const SelectMonedas = () => {
+        console.log('SelectMonedas');
+    
+    }
+
+    return [SelectMonedas]
+
+    }
+
+    export default useSelectMonedas
+```
